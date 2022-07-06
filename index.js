@@ -27,7 +27,7 @@ app.use('/api', upload);
 app.use('/api', user);
 
 //mongoose db
-mongoose.connect("mongodb+srv://khaintph16089:kazuo002@cluster0.fqkqf4g.mongodb.net/react")
+mongoose.connect("mongodb+srv://khaint:rikka002@cluster0.qytjx.mongodb.net/react")
     .then(()=>{ console.log("kết nối db thành công"); })
     .catch( error => {console.log(error);})
 //connet
